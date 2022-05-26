@@ -99,6 +99,7 @@ export default function Index(){
                         <button className='font , botao'>apagar</button>
                         <Link  to="/"className='font , botao'>voltar</Link>
                         <Link to="/adicionar" className='font , botao'>adicionar</Link>
+                        <Link to="/editar" className='font , botao'>editar</Link>
                     </div>
                 </nav>
             </main>
