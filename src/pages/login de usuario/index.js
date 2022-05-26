@@ -21,7 +21,7 @@ export default function Index(){
 
                 <section class="conteiner2">
                 <div class="texto2">
-                    Novo no site? <u>Registra-se</u>
+                   
                 </div>
                 </section>
 
@@ -47,12 +47,6 @@ export default function Index(){
                     Login
                 </Link>
 
-                <section class="conteiner-5">
-                    <div class="imagens">
-                        <img src="/images/image 12.png" class="img2" alt=""/>
-                        <img src="/images/image 10.png" class="img3" alt=""/>
-                    </div>
-                </section>
             </main>  
         </div>
        
