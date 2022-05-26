@@ -3,110 +3,105 @@ import { Link } from 'react-router-dom';
 
 export default function Index(){
     return(
-        <body className='consulta'>
-            <div className="main">
-                <main className="pagina">
-
-                    <section className="conteiner0">
-                        <div className="logo">
-                            <img src="/logo-hamburguer.png" width="106px" height="97px" alt=""/>
-                        </div>
+        <div className='consulta'>
+            <main className='main'>
+                <div className='cima'>
+                    <img width="100px" height="90px"src="/logo-hamburguer.png"alt=""/> 
+                    <h1 className='titulo , font'>Reservas de mesas</h1>
+                </div>
                 
-                        <div className="titulo">
-                            Reservas de mesas
-                        </div>
-            
-                    </section>
-            
-            
-                    <section className="conteiner1">
-                        
-                        <div className="linha1">
-                            Mesa
-                        </div>
-            
-                        <div className="linha1">
-                            Nome
-                        </div>
-            
-                        <div className="linha1">
-                            Qtd.pessoas
-                        </div>
-            
-                        <div className="linha1">
-                            Data
-                        </div>
-            
-                        <div className="linha1">
-                            Hora
-                        </div>
-            
-                    </section>
-            
-                
-                <section className="conteiner3">
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
+                <div className="container-tabela">
+                    <img style={{"width":"650px" , "height": "750px", }} className="img" src="/images/burguer-consulta" alt=""/>
+                    <table className="tabela">
+                    
+                        <tr className='header , font'>
+                            <th className="head-">Mesa</th>
+                            <th className="head-">Nome</th>
+                            <th className="head-">Qtd pessoas</th>
+                            <th className="head-">Data</th>
+                            <th className="head-">Hora</th>
+                        </tr>
+                      
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                        <tr className="corpo">
+                            <td className="config-td">01</td>
+                            <td className="config-td">GABRIEL FERREIRA</td>
+                            <td className="config-td">07</td>
+                            <td className="config-td">19/02</td>
+                            <td className="config-td">19:00</td>
+                        </tr>
+                    </table>
+                </div>
+                <nav className='navegacao'>
+                    <div className='config-botao'> 
+                        <button className='font , botao'>apagar</button>
+                        <Link  to="/"className='font , botao'>voltar</Link>
+                        <Link to="/adicionar" className='font , botao'>adicionar</Link>
                     </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                    <div className="linha2">
-                        <input type="text" className="box1"/>
-                    </div>
-                
-                </section>
-                
-                <section className="conteiner4">
-                    <Link to="/Adicionar"className="botao">
-                        ADICIONAR
-                    </Link>
-                </section>
-                
-                </main>
-            </div>
-        </body>
+                </nav>
+            </main>
+        </div>
     )
 }
